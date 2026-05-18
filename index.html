@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <style>
+        body {
+            background-color: rgb(197, 178, 178);
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+        }
+        h1 {
+            color: rgb(96, 24, 24);
+            line-height: 1.5;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+        } 
+        h3 {
+            color: rgb(29, 34, 38);
+            line-height: 1.5;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+        } 
+        p {
+            font-size: 18px;
+            color: rgb(39, 16, 48);
+            line-height: 1.5;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+        }
+        ul {
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            line-height: 1.5;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+        }
+        .box {
+    width: 300px;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid black;
+    background-color: rgb(240, 148, 0);
 
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+        
+    </style>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Spaces | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1 class="logo">Creative Spaces</h1>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <ul id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Welcome to My Design World</h2>
+    <p>I create personal, modern, and inspiring design ideas for spaces that feel beautiful and useful.</p>
+    <button onclick="changeText()" id="changeBtn">Click for inspiration</button>
+    <button onclick="toggleDarkMode()">Dark Mode</button>
+  </div>
+  <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72" alt="Interior design workspace">
+</section>
+
+<section class="intro">
+  <h2>About This Website</h2>
+  <p>
+    This website is a personal design portfolio focused on creativity, interiors, color, and spaces.
+    My goal is to show how design can make people feel comfortable, inspired, and connected to their environment.
+  </p>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <h3>Interior Design</h3>
+    <p>Ideas for rooms, colors, furniture, and creative layouts.</p>
+  </div>
+  <div class="card">
+    <h3>Personal Style</h3>
+    <p>A mix of modern, calm, and artistic design choices.</p>
+  </div>
+  <div class="card">
+    <h3>Creative Projects</h3>
+    <p>Small design concepts that show imagination and planning.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Creative Spaces | My First Website</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Spaces | About Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1 class="logo">Creative Spaces</h1>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <ul id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h2>About Me</h2>
+  <p>Design is how I express creativity, emotion, and personal identity.</p>
+</section>
+
+<section class="about-section">
+  <div>
+    <h3>Who I Am</h3>
+    <p>
+      I am a creative person who enjoys looking at spaces, colors, shapes, and the way a room can make someone feel.
+      I like design because it combines imagination with real-life needs. A good space is not only pretty; it should also be useful,
+      comfortable, and meaningful.
+    </p>
+  </div>
+
+  <div>
+    <h3>My Design Interests</h3>
+    <p>
+      I enjoy modern interiors, cozy rooms, natural colors, artistic details, and organized layouts.
+      I also like observing architecture and thinking about how different structures can change people’s daily lives.
+    </p>
+  </div>
+
+  <div>
+    <h3>My Goals</h3>
+    <p>
+      My goal is to keep learning about design and improve my ability to create spaces that help people feel calm, inspired,
+      and at home. This website represents my first step in showing my ideas online.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Creative Spaces | About Me</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html> <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Spaces | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1 class="logo">Creative Spaces</h1>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <ul id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h2>Contact Me</h2>
+  <p>Send me a message about design ideas, projects, or questions.</p>
+</section>
+
+<section class="contact-container">
+  <form id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email">
+
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="Write your message"></textarea>
+
+    <button type="submit">Send Message</button>
+    <p id="formMessage"></p>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Creative Spaces | Contact</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>* {
+  
+
+} My First Website - Creative Spaces
+
+This website is a personal design portfolio about creative spaces, interior design, and personal style.
+
+Reflection:
+While creating this website, I learned how HTML, CSS, and JavaScript work to build a complete webpage. HTML helped me organize the content, CSS helped me create the style, colors, layout, and responsive design, and JavaScript allowed me to add interactive features like dark mode, a menu button, and form validation. I also notice that a good website is not only look nice is also be easy to use. This project helped me understand the importance of planning, organization, creativity, and how to use a lot of new platforms.
